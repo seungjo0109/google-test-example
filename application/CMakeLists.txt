@@ -13,7 +13,7 @@ include_directories(
 # set sources
 set(SRC_FILES
   src/main.cc
-  src/test_code.cc
+  src/application.cc
 )
 
 # build

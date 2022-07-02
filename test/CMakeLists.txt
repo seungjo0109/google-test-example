@@ -7,7 +7,7 @@ file(GLOB_RECURSE TEST_SOURCES LIST_DIRECTORIES false *.hpp *.cc)
 set(SOURCES ${TEST_SOURCES})
 
 include_directories(
-    ${CMAKE_SOURCE_DIR}/project/include
+  ${CMAKE_SOURCE_DIR}/application/include
 )
 
 add_executable(${BINARY}
