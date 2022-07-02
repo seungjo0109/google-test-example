@@ -47,7 +47,43 @@
 
 </br>
 
+### Test Fixture
+* Test fixture help you write the test by reusing the code in the setup and in the tear down phase.
+* There are very suited for cases when that setup or the test clean up are similar.
+* __The fixture is class derived from the _Test_ class in the _testing_ namespace.__
+    * There is some special functions we can override. 
+    * such as SetUp(), which is called before each test.
+    * TearDown(), which is called after each test.
+    * SetupTestCase(), which is called before and after the entire suit.
+* To create a test fixture, we have to use __TEST_F__.
+
+</br>
+
+### Test Fixtrue flow
+* Fixture flow: Constructor -> SetUp -> Test Body -> TearDown -> Destructor.
+* It's preferred to use the constructor, destructor because we can make our attribues _const_.
+* If we need subclass our fixture, it's preferred to use the constructor or destructor.
+    * This is because we may forget to explicitly called in SetUp(), TearDown().
+
+</br>
+
+* We may still use SetUp(), TearDown() when we intend to call virtual methods.
+    * If we call a virtual method in the constructor, it is not polymorphic.
+* It's not possible to use _fatal assertions_ in constructors.
+* Do not call _code that can throw exceptions_ in the desturctor.
+
+</br>
+
+## Parameterized tests
+* Parameterized tests are useful when the test body is the same and just inputs are different.
+* Parameterized tests are created by extending the test with __TestWithParam<T>__. 
+* Test body is deined by using the __TEST_P__.
+* We can use various input type by using __Generators, such as Range, Values, ValuesIn, Bool, Combine.__
+
+</br>
+
 ### __[Unit test example](./unit_test.cc)__
+### __[Test fixture example](./test_fixture.cc)__
 
 </br>
 

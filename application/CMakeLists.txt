@@ -13,7 +13,9 @@ include_directories(
 # set sources
 set(SRC_FILES
   src/main.cc
-  src/application.cc
+  src/simple_function.cc
+  src/account.cc
+  src/validator.cc
 )
 
 # build

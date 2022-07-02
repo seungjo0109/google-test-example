@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "application.hpp"
+#include "simple_function.hpp"
 
 /* Unit test AAA structure */
 TEST(TestCountPositives, BasicTest)
