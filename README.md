@@ -2,6 +2,8 @@
 * In this repository, Test Driven Development(TDD) with Googletest and Googlemock is introduced.
 * C++ is used as the main language in this repository.
 * Check the list below for the contents of this repository.
+* In this projects, the sources consist of applications examples and test examples. 
+    * They are operated seperately and test excutable is genereated by test examples.
 
 </br>
 
@@ -14,6 +16,14 @@
 * Test fixture
 * Test Fixtrue flow
 * Parameterized tests
+
+</br>
+
+### 2. Mock Test
+* Mock test
+* Mocking method
+* Setting Expectations & Behavior
+* Matchers
 
 </br>
 

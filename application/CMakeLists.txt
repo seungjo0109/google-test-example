@@ -15,7 +15,11 @@ set(SRC_FILES
   src/main.cc
   src/simple_function.cc
   src/account.cc
+  src/number_generator.cc
   src/validator.cc
+
+  src/database_connection/database_connection.cc
+  src/database_connection/employee_manager.cc
 )
 
 # build

@@ -84,6 +84,7 @@
 
 ### __[Unit test example](./unit_test.cc)__
 ### __[Test fixture example](./test_fixture.cc)__
+### __[Parameterized test example](./parameterized_test.cc)__
 
 </br>
 
