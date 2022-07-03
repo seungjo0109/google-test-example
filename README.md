@@ -7,6 +7,21 @@
 
 </br>
 
+### Operating System
+* Linux
+
+</br>
+
+### Compilation
+* In the Livox SDK directory, run the following commands to compile the project:
+
+> cd build && cd build
+> cmake..
+> make
+> ../google_test_test
+
+</br>
+
 ### 1. Unit Test
 * Unit test
 * Characteristics of unit test
