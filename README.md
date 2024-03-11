@@ -15,10 +15,10 @@
 ### Compilation
 * In the Livox SDK directory, run the following commands to compile the project:
 
-> cd build && cd build \
+> mkdir build && cd build \
 cmake.. \
 make \
-../google_test_test
+./google_test_test
 
 </br>
 
